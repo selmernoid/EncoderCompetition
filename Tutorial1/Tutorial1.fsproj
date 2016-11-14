@@ -8,7 +8,7 @@
     <ProjectGuid>7578512c-74ad-46bb-a4df-c9e0a871d032</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Tutorial1</RootNamespace>
-    <AssemblyName>Tutorial1</AssemblyName>
+    <AssemblyName>Encoder</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
@@ -55,8 +55,7 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
-    <Compile Include="Tutorial.fsx" />
-    <None Include="Encoder.fsx" />
+    <None Include="BitStates.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
